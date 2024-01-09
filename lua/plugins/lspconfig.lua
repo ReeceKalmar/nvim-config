@@ -42,12 +42,12 @@ return {
 				init_options = {
 					html = {
 						options = {
-							-- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
 							["bem.enabled"] = true,
 						},
 					},
 				},
 			})
+			lspconfig.typos_lsp.setup({ capabalities = capabalities })
 			lspconfig.lua_ls.setup({ capabalities = capabalities })
 			lspconfig.tsserver.setup({ capabalities = capabalities })
 			lspconfig.jdtls.setup({ capabalities = capabalities })

@@ -10,6 +10,7 @@ return {
 				null_ls.builtins.formatting.isort,
 				null_ls.builtins.diagnostics.eslint_d,
 				null_ls.builtins.code_actions.eslint_d,
+				null_ls.builtins.formatting.google_java_format,
 			},
 		})
 
