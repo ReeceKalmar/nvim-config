@@ -54,6 +54,8 @@ return {
 			lspconfig.clangd.setup({ capabalities = capabalities })
 			lspconfig.html.setup({ capabalities = capabalities })
 			lspconfig.pylsp.setup({ capabalities = capabalities })
+
+			lspconfig.pyright.setup({ capabalities = capabalities })
 			lspconfig.tailwindcss.setup({ capabalities = capabalities })
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
